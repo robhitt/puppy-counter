@@ -1,0 +1,42 @@
+* {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 200;
+  box-sizing: border-box;
+}
+
+.btn {
+  border: 2px solid #000;
+  font-size: 18px;
+  padding: 6px 8px;
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+}
+
+.btn:hover {
+  background-color: teal;
+  color: #fff;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.puppy {
+  background: url(https://bit.ly/2sMZ5b6);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sad-puppy {
+  background: url(https://bit.ly/2DA6Wz7);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.timer {
+  font-weight: 700;
+}
